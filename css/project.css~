@@ -1,0 +1,42 @@
+#main article {
+			background-color: rgba(89, 64, 50, 0.85);
+		}
+.fadeOut {
+	opacity:0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s; /* Safari */
+}
+.fadeIn {
+	opacity:1;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s; /* Safari */
+}
+
+/* Styles for team pictures */
+img.headshot
+{
+    width: 150px;
+    height: 150px;
+}
+img.circle {
+ 	border-radius: 50%;
+}
+
+div.person {
+	position: relative;
+	display: inline-block;
+	
+}
+div.persondescription {
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: top;
+	word-wrap: break-word;
+	max-width: 380px;
+	word-wrap: break-word;
+}
+div.personheadshot {
+	width: 170px;
+	padding: 10px 10px 0px 10px;
+	display: inline-block;
+}
